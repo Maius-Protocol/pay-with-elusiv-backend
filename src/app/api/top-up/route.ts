@@ -28,13 +28,8 @@ export async function GET(request: Request) {
   );
 
   const topupTxData = await elusiv.buildTopUpTx(
-    LAMPORTS_PER_SOL * amount,
+     amount,
     token as TokenType
-  );
-  console.log(
-    "typeof",
-    topupTxData.commitmentHash,
-    typeof topupTxData.commitmentHash
   );
 
   const transaction = topupTxData.tx;
