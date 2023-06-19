@@ -55,7 +55,7 @@
     wasmcurves "0.2.0"
     web-worker "^1.2.0"
 
-"@elusiv/sdk@^0.1.12":
+"@elusiv/sdk@^0.1.13":
   version "0.1.13"
   resolved "https://registry.yarnpkg.com/@elusiv/sdk/-/sdk-0.1.13.tgz#f056d8ae30930816be7d8f032caa9fb70b2f1e5c"
   integrity sha512-yKRpOyxQUDEPBYZuIoCoF8DpYgwDhCQzp3eqQFdZ+knOARxoUPQ3vrAVaCmqk+QYsB6iGiu34bwQ+nSN5CAqzw==
